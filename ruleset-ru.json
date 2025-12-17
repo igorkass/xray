@@ -1,63 +1,7 @@
 [
   {
-    "domain": [
-      "geosite:category-ads-all"
-    ],
     "enabled": true,
-    "locked": false,
-    "outboundTag": "block",
-    "remarks": "🚫 Блокировка рекламы"
-  },
-  {
-    "enabled": true,
-    "looked": true,
-    "network": "udp",
-    "outboundTag": "block",
-    "port": "443",
-    "remarks": "🚫 Блокировка QUIC"
-  },
-  {
-    "enabled": true,
-    "ip": [
-      "geoip:private"
-    ],
-    "locked": false,
-    "outboundTag": "direct",
-    "remarks": "➡️ Приватные сети напрямую"
-  },
-  {
-    "domain": [
-      "geosite:private"
-    ],
-    "enabled": true,
-    "locked": false,
-    "outboundTag": "direct",
-    "remarks": "➡️ Приватные домены напрямую"
-  },
-  {
-    "enabled": true,
-    "ip": [
-      "geoip:ru"
-    ],
-    "locked": false,
-    "outboundTag": "direct",
-    "remarks": "🇷🇺 RU сети напрямую"
-  },
-  {
-    "domain": [
-      "geosite:category-ru",
-      "geosite:category-gov-ru"
-    ],
-    "enabled": true,
-    "locked": false,
-    "outboundTag": "direct",
-    "remarks": "🇷🇺 RU домены напрямую"
-  },
-  {
-    "enabled": true,
-    "locked": false,
     "outboundTag": "proxy",
-    "port": "0-65535",
-    "remarks": "🔀 Остальное в прокси"
+    "remarks": "Все в прокси"
   }
 ]
