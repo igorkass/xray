@@ -1,0 +1,7 @@
+[
+  {
+    "enabled": true,
+    "outboundTag": "proxy",
+    "remarks": "Все в прокси"
+  }
+]
